@@ -1,10 +1,10 @@
 type GreetProp = {
   name: string;
-  age: number;
+  age?: number;
   isLoggedIn: boolean;
 };
 
-const Greet = ({ name, age, isLoggedIn }: GreetProp) => {
+const Greet = ({ name, age = 18, isLoggedIn }: GreetProp) => {
   return (
     <div>
       {isLoggedIn ? (
