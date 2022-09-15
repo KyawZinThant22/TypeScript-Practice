@@ -1,9 +1,10 @@
 import React from "react";
+import Greet from "./components/Greet";
 
 function App() {
   return (
     <div className="App">
-      <h2>hello</h2>
+      <Greet name="Kyaw Zin Thant" />
     </div>
   );
 }
