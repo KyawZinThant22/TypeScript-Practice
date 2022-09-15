@@ -1,6 +1,7 @@
 import React from "react";
 import Brian from "./components/Brian";
 import Button from "./components/Button";
+import Container from "./components/Container";
 import Greet from "./components/Greet";
 import Heading from "./components/Heading";
 import Input from "./components/Input";
@@ -44,6 +45,7 @@ function App() {
       </Brian> */}
       <Button handleClicked={(e, id) => console.log(e, id)} />
       <Input vlaue="kyaw zin thant" handleChange={(e) => console.log(e)} />
+      <Container style={{ border: "1px solid black", padding: "4rem" }} />
     </div>
   );
 }
